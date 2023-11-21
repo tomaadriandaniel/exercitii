@@ -7,13 +7,9 @@ public class ExempluPolimorfism {
         Masina masina2 = new MasinaElectrica("Tesla","Model 3", 2022, 50000, 400);
         MasinaElectrica masina3 = new MasinaElectrica("Tesla","Model X", 2022, 80000, 500);
 
-
         afiseazaInformatiiMasina(masina1);
         afiseazaInformatiiMasina(masina2);
         afiseazaInformatiiMasina(masina3);
-
-
-
 
     }
 

@@ -8,6 +8,7 @@ public class ExempluMostenire {
         masinaElectrica.afiseazaInformatii();
         System.out.println("Impozitul este: " + masinaElectrica.calculareImpozit());
 
-
+        Masina masina1 = new MasinaElectrica("Tesla","Model 3", 2022, 50000, 400);
+        masina1.afiseazaInformatii();
     }
 }

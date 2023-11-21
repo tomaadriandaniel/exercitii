@@ -8,7 +8,6 @@ public class ExempluUtilizareClasa {
         Masina masina2 = new Masina("Ford","Focus",2022,15000);
         Masina masina3 = masina1;
 
-
         masina1.afiseazaInformatii();
         double impozit1 = masina1.calculareImpozit();
         System.out.println("Impozitul pentru masina1 este: " + impozit1);
